@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "405890119593",
+    "firebase_url": "https://resistor-19b62-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "resistor-19b62",
+    "storage_bucket": "resistor-19b62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405890119593:android:ad9e3be801dc603af6f6b8",
+        "android_client_info": {
+          "package_name": "com.example.resistor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405890119593-bnabhrtu0rmbn5t7frkbu50b28t3brq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzEZhhsAi_AltKATs0TeCVLT_HH7pScZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405890119593-bnabhrtu0rmbn5t7frkbu50b28t3brq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

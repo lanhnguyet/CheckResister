@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/back"
+    android:id="@+id/secondFragment">
+
+    <RelativeLayout
+        android:id="@+id/learn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/f2name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Cách Đo Điện Trở"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/f2png1"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/res"/>
+
+            <TextView
+                android:id="@+id/f2name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cách Tính Điện Trở"
+                android:layout_marginTop="15dp"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/f2text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ta áp dụng mạch cầu chia thế, dùng 1 trở tham chiếu. Sau đó đo Vr cần kiểm tra, áp dụng công thức sẽ tính ra R cần đo"
+                android:layout_marginTop="2dp"
+                android:textColor="#DCBEBE"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/f2png2"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bright"/>
+
+            <TextView
+                android:id="@+id/f2png3"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/tinh"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.resistor.MainActivity">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="@string/Home"
+        />
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/info"
+        android:title="@string/Learn"
+        />
+
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/setting"
+        android:title="@string/setting"/>
+</menu>
